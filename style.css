@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: #002F34 !important;
+    width: 55px;
+}
+
+.nav-top {
+    padding: 0.8vw 0vw;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+.svg-parent {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.svg-parent a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #002F34;
+}
+
+.svg-inner {
+    padding: 8px;
+    border-radius: 50%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 47, 52, .16)), color-stop(81.77%, rgba(0, 47, 52, .01)), to(rgba(0, 47, 52, .01)));
+
+}
+
+.nav-bottom {
+    background-color: aqua;
+}
